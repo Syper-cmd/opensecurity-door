@@ -1,0 +1,26 @@
+{
+  "name": "bambambam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tstl",
+    "dev": "tstl --watch",
+    "watch": "tstl --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@opct/openos": "^0.1.6",
+    "typescript-to-lua": "^1.33.0"
+  },
+  "dependencies": {
+    "@opct/ae2": "^0.1.6",
+    "@opct/common": "^0.1.6",
+    "@opct/gui": "^0.1.6",
+    "typescript": "^5.9.3"
+  }
+}
